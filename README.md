@@ -1,8 +1,8 @@
 # Description
 
-This is a quick implementation of the DenseNet model described in the paper *Densely Connected Convolutional Networks* by Huang et al. ([arXiv](https://arxiv.org/abs/1608.06993))
+This is a quick implementation of the DenseNet model described in the paper *"Densely Connected Convolutional Networks"* by Huang et al. ([arXiv](https://arxiv.org/abs/1608.06993))
 
-It has only been tested on the Cifar-10 dataset, without data augmentation, but it should work fine on any dataset.
+It has only been tested on the Cifar-10 dataset without data augmentation, but it should work fine on any dataset.
 
 # Getting started
 The basic model is defined in *DenseNet.py*.
