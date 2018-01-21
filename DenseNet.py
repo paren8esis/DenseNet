@@ -177,6 +177,7 @@ def DenseNet(growth_rate=None, blocks=None, first_num_channels=16,
                    padding='same', use_bias=False,
                    kernel_initializer='he_normal',
                    kernel_regularizer=l2(weight_decay))(x)
+        num_channels = int(compression * num_channels)
         if dropout_p is not None:
             x = Dropout(dropout_p)(x)
         x = AveragePooling2D(pool_size=(2,2), strides=(2,2))(x)
