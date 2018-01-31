@@ -90,7 +90,7 @@ def DenseNet(growth_rate=None, blocks=None, first_num_channels=16,
              num_classes=1000, first_conv_pool=False,
              input_shape=(224, 224, 3), data_format=None, weight_decay=1e-4):
     """
-    Returns a Keras model for the DenseNet-121 architecture.
+    Returns a Keras model for the DenseNet-BC architecture.
 
     Parameters
     ----------
